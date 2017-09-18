@@ -1,12 +1,11 @@
 package com.injedu.utils.tools;
 
+import com.google.common.collect.Range;
+import org.apache.commons.lang3.StringUtils;
+
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
-
-import org.apache.commons.lang3.StringUtils;
-
-import com.google.common.collect.Range;
 
 /**
  * 字符串操作工具包
@@ -136,7 +135,7 @@ public class ConvertUtils {
 			return null;
 		}
 
-		List<Range<Integer>> list = new ArrayList<>();
+		List<Range<Integer>> list = new ArrayList<Range<Integer>>();
 
 		String[] arr = StringUtils.split(str, separatorChar);
 
