@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="injedu-utils" target="1.5" />
+      <module name="utils" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
